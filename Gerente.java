@@ -7,7 +7,7 @@ public class Gerente extends Funcionario implements AuxiliarDeLoja {
 
     @Override
     public void organizarCabides() {
-        System.out.println("Verificar se os cabides estão bem organizados pelo auxiliar de loja");
+        System.out.println("Verificar se os cabides estão bem organizados pelo auxiliar de loja ou vendedor.");
     }
 
     @Override

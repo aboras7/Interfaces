@@ -30,7 +30,7 @@ public abstract class Funcionario {
     }
 
     public void almocar() {
-        System.out.println("Hora de Ao Mossar marmita");
+        System.out.println("Hora de Ao Mossar marmita.");
     }
     public void fecharLoja() {
         System.out.println("Fechar portão da loja com a chave.\n");

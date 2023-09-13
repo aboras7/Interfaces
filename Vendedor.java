@@ -13,7 +13,7 @@ public class Vendedor extends Funcionario implements AuxiliarDeLoja {
 
     @Override
     public void vender() {
-        System.out.println("Abordar os clientes ativamente e vender");
+        System.out.println("Abordar os clientes ativamente e vender.");
     }
 
     @Override
