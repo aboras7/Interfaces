@@ -9,6 +9,10 @@ public abstract class Funcionario {
         this.idade = idade;
     }
 
+    public Funcionario () {
+
+    }
+
     public String getNome() {
         return nome;
     }

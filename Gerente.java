@@ -5,6 +5,11 @@ public class Gerente extends Funcionario implements AuxiliarDeLoja {
         super(nome, idade);
     }
 
+
+    public Gerente () {
+
+    }
+
     @Override
     public void organizarCabides() {
         System.out.println("Verificar se os cabides estão bem organizados pelo auxiliar de loja ou vendedor.");
