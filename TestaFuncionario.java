@@ -45,21 +45,18 @@ public class TestaFuncionario {
         vendedor1.vender();
         vendedor1.almocar();
         vendedor1.organizarCabides();
+        
+        try {
+            int valorCaixa;
+            System.out.println("Digite o valor final do caixa: ");
+            valorCaixa = leia.nextInt();
+            System.out.println("Valor final do caixa: " + valorCaixa);
 
-        while (true) {
-            try {
-                int valorCaixa;
-                System.out.println("Digite o valor final do caixa: ");
-                valorCaixa = leia.nextInt();
-                System.out.println("Valor final do caixa: " + valorCaixa);
-
-            } catch (InputMismatchException e) {
-                System.err.println("\nExceção: " + e);
-                System.out.println("Digite um número inteiro: ");
-            }
-
-            vendedor1.fecharLoja();
+        } catch (InputMismatchException e) {
+            System.err.println("\nExceção: " + e);
+            System.out.println("Digite um número inteiro: ");
         }
+        vendedor1.fecharLoja();
     }
 }
 
