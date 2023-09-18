@@ -1,10 +1,12 @@
 package interfaces;
 
+import java.util.Scanner;
+
 public class Vendedor extends Funcionario implements AuxiliarDeLoja {
     public Vendedor(String nome, int idade) {
         super(nome, idade);
     }
-
+    Scanner leia = new Scanner(System.in);
 
     @Override
     public void organizarCabides() {
@@ -25,4 +27,5 @@ public class Vendedor extends Funcionario implements AuxiliarDeLoja {
     public void almocar() {
         super.almocar();
     }
+
 }
